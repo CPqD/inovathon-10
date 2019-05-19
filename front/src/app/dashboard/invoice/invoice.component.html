@@ -1,0 +1,107 @@
+<header>
+  <p class="welcome">Olá <span class="name">Leandro</span></p>
+  <div class="row-header">
+    <div class="y"></div>
+    <div class="person">
+      <img src="../../../../assets/didi.svg" alt="didi">
+    </div>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>more_vert</mat-icon>
+    </button>
+  </div>
+  <p class="pts"><span class="number">1220 </span>pts</p>
+</header>
+<div class="x"></div>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>
+    <mat-icon>dialpad</mat-icon>
+    <span>Ver na blockchain</span>
+  </button>
+
+  <button mat-menu-item>
+    <mat-icon>exit_to_app</mat-icon>
+    <span>Desvincular conta</span>
+  </button>
+</mat-menu>
+
+<div class="content">
+  <div class="ver-identidade">
+    <button mat-flat-button color="primary" [routerLink]="['/dashboard/identidade']">Ver identidade</button>
+  </div>
+  <div class="wrapper-actions">
+    <a [routerLink]="['/dashboard/solicitacao']">
+      <div class="action">
+        <div class="box">
+          <img src="../../../assets/verificar.png" alt="verificar">
+        </div>
+        <p class="title">Verificar ID</p>
+      </div>
+    </a>
+
+    <a [routerLink]="['/dashboard/compartilhar-id']">
+      <div class="action">
+        <div class="box box-last">
+          <img src="../../../assets/compartilhar.png" alt="verificar">
+        </div>
+        <p class="title">Compartilhar ID</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="atividades">
+    <div class="titulo-atividades">
+      Atividades
+    </div>
+    <div class="wrapper-itens">
+      <div class="item">
+        <div class="row">
+          <div class="col-3">
+            <div class="wrapper-icone">
+              <img src="../../../assets/pts.svg" alt="pts">
+            </div>
+          </div>
+          <div class="col-9">
+            <div class="wrapper-text">
+              <p class="text">Ganhe <span class="qnt-pts">100 pts</span> ao cadastrar sua carteira de motorista</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="row">
+          <div class="col-3">
+            <div class="wrapper-icone">
+              <img src="../../../assets/pts.svg" alt="pts">
+            </div>
+          </div>
+          <div class="col-9">
+            <div class="wrapper-text">
+              <div>
+                <p class="text">Roberto confirmou a sua foto</p>
+                <span class="qnt-pts">+ 100pts</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="row">
+          <div class="col-3">
+            <div class="wrapper-icone">
+              <img src="../../../assets/pts.svg" alt="pts">
+            </div>
+          </div>
+          <div class="col-9">
+            <div class="wrapper-text">
+              <div>
+                <p class="text">Você enviou a sua foto</p>
+                <span class="qnt-pts">+ 50pts</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

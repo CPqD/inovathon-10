@@ -1,0 +1,3 @@
+# Register a ServiceLoader service extending from net.corda.webserver.services.WebServerPluginRegistry
+tech.bluchain.sample.examplecorda.plugin.PersonPlugin
+tech.bluchain.sample.examplecorda.plugin.IdPlugin

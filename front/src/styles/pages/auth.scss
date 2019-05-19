@@ -1,0 +1,39 @@
+.auth-page {
+  .message {
+    display: none;
+
+    @media (min-width: 992px) {
+      background-color: map-get($auth, 'bg-primary');
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 40px 0;
+      height: 100vh;
+    }
+
+    .logo {
+      margin: 0 0 0 50px;
+      width: 150px;
+    }
+
+    .slogan {
+      color: map-get($auth, 'text-primary');
+      font-weight: 300;
+      text-align: center;
+    }
+  }
+
+  .main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+
+    .form-actions {
+      // display: flex;
+      margin-top: 25px;
+      // justify-content: space-between;
+    }
+  }
+}

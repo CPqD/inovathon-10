@@ -1,0 +1,20 @@
+<header>
+  <p class="welcome">Olá <span class="name">Leandro</span></p>
+  <div class="row-header">
+    <div class="y"></div>
+    <div class="person">
+      <img src="../../../../assets/didi.svg" alt="didi">
+    </div>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>more_vert</mat-icon>
+    </button>
+  </div>
+  <p class="pts"><span class="number">1220  </span>pts</p>
+</header>
+<div class="x"></div>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>
+    <mat-icon>dialpad</mat-icon>
+    <span>Ver na blockchain</span>
+  </button>
+</mat-menu>

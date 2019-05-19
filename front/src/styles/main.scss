@@ -1,0 +1,33 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+@import 'utils/variables';
+@import 'utils/functions';
+@import 'utils/mixins';
+@import 'utils/helpers';
+
+@import 'base/reset';
+@import 'base/typography';
+
+// @import 'layout/auth';
+// @import 'layout/grid';
+// @import 'layout/header';
+// @import 'layout/footer';
+// @import 'layout/sidebar';
+// @import 'layout/forms';
+
+@import 'components/accordion';
+@import 'components/forms';
+@import 'components/horizontal-card';
+@import 'components/mat-horizontal-stepper';
+@import 'components/menu';
+@import 'components/dialog';
+@import 'components/notify';
+// @import 'components/carousel';
+// @import 'components/slider';
+
+@import 'pages/auth';
+// @import 'pages/about';
+// @import 'pages/contact';
+
+// @import 'themes/theme';
+// @import 'themes/admin';

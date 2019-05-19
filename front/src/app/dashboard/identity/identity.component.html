@@ -1,0 +1,54 @@
+<header>
+  <div class="row-header">
+    <div class="person">
+      <a href="" [routerLink]="['/dashboard/home']">
+        <img src="../../../../assets/didi.svg" alt="didi">
+      </a>
+    </div>
+    <p class="pts"><span class="number">1220</span>pts</p>
+  </div>
+</header>
+
+<div class="content">
+  <button mat-flat-button color="primary" class="mb-20">+ Inserir documento</button>
+  <p class="title">Sua Identidade:</p>
+  <mat-accordion>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Foto
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="center">
+        <img src="../../../assets/perfil.jpeg" alt="perfil" class="mt-20 img-perfil">
+      </div>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          ID Gov
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <p class="mt-20">CPF: 455.811.318-80</p>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Nome
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <p class="mt-20">Leandro Soares de Souza</p>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Endereço
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <p class="mt-20">Rua Abrahão Pasmanik, Jardim Icaraí - Campinas SP - CEP 13051-412</p>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>

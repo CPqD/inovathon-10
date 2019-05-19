@@ -1,0 +1,12 @@
+mat-expansion-panel-header {
+  background-color: map-get($gray, "light");
+
+  &:hover,
+  &:focus {
+    background-color: map-get($gray, "light") !important;
+  }
+
+  mat-panel-title {
+    font-weight: bold;
+  }
+}

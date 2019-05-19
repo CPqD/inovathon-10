@@ -1,0 +1,37 @@
+<header>
+  <div class="row-header">
+    <div class="person">
+      <a href="" [routerLink]="['/dashboard/home']">
+        <img src="../../../../assets/didi.svg" alt="didi">
+      </a>
+    </div>
+    <p class="pts"><span class="number">1220</span>pts</p>
+  </div>
+</header>
+
+<div class="content">
+  <!-- <p class="title">
+      Ok, vamos perguntar o nome completo, a idade e a foto
+    </p> -->
+
+  <div class="wrapper-resultado">
+    <p class="title">Solicitação:</p>
+    <div class="infos">
+      <p class="info-text">Thiago Cardozo <span>(Laroc Casa Noturna)</span></p>
+      <p class="info-text font-weight-bold">Solicita:</p>
+
+      <ul>
+        <li>Nome</li>
+        <li>Idade</li>
+        <li>Foto</li>
+      </ul>
+      <!-- <p class="info-text"><p>Nome</p>
+      <p class="info-text"><p>Idade</p>
+      <p class="info-text"><p>Foto</p> -->
+    </div>
+    <div class="actions">
+      <button mat-flat-button color="primary" class="mr-50">Recusar</button>
+      <button mat-flat-button color="primary" [routerLink]="['/dashboard/resultado']" >Aprovar</button>
+    </div>
+  </div>
+</div>

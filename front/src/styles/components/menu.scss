@@ -1,0 +1,64 @@
+.menu-notifications {
+  width: 280px;
+  margin: 0;
+  padding: 0;
+
+  .title {
+    border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+    font-weight: 500;
+    padding: 11px 15px 15px;
+  }
+
+  .notifications-body {
+    height: 230px;
+    overflow: auto;
+    position: relative;
+
+    .item {
+      border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+      display: flex;
+      color: #455a64;
+      align-items: center;
+      text-decoration: none;
+      padding: 9px 15px;
+
+      &:hover {
+        background-color: #f2f4f8;
+      }
+
+      .round {
+        flex-shrink: 0;
+        margin: 0 10px 0 0;
+      }
+
+      .content {
+        overflow: hidden;
+        white-space: normal;
+
+        h5 {
+          margin: 5px 0 0;
+        }
+
+        .desc {
+          font-size: 12px;
+          display: block;
+          margin: 1px 0;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          color: #67757c;
+          white-space: nowrap;
+        }
+
+        .time {
+          font-size: 12px;
+          display: block;
+          margin: 1px 0;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          color: #67757c;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}

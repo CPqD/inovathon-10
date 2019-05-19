@@ -1,0 +1,25 @@
+form {
+  > .full-width {
+    width: 100%;
+  }
+
+  > .half-width {
+    width: 50%;
+  }
+}
+
+form {
+  .success {
+    border: solid 2px map-get($form, "success");
+    border-radius: 5px;
+    color: map-get($form, "text");
+    font-size: 75%;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px;
+  }
+}
+
+.form-control {
+  border: 0;
+}
