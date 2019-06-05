@@ -4,7 +4,7 @@
 
 ### Appearance
 
-<img src="telas/1.png" width="154" height="274" title="Github Logo"> <img src="telas/2.png" width="154" height="274" title="Github Logo"> <img src="telas/3.png" width="154" height="274" title="Github Logo"> <img src="telas/4.png" width="154" height="274" title="Github Logo"> <img src="telas/5.png" width="154" height="274" title="Github Logo">
+<img src="img/telas/1.png" width="154" height="274" title="Github Logo"> <img src="img/telas/2.png" width="154" height="274" title="Github Logo"> <img src="img/telas/3.png" width="154" height="274" title="Github Logo"> <img src="img/telas/4.png" width="154" height="274" title="Github Logo"> <img src="img/telas/5.png" width="154" height="274" title="Github Logo">
 
 ***
 
