@@ -39,7 +39,7 @@ Para começarmos primeiro clone nosso reposítorio seguindo o comando a baixo.
 
 ```# git clone https://github.com/CPqD/inovathon-10.git```
 
-Vai ser gerado uma pasta com nome inovathon-10. Entre nessa diretório que foi clonado.
+Vai ser gerado uma pasta com nome inovathon-10. Entre nesse diretório que foi clonado.
 
 ```# cd /inovathon-10/```
 
@@ -47,15 +47,15 @@ Nesta pasta está os arquivos necessários para a aplicação funcionar. Agora v
 
 ```$ cd /inovathon-10/ExampleCorda/```
 
-Vamos executar esse comando para criar a pasta build do projeto, nela vamos ter os nós.
+Vamos executar esse comando para criar a pasta build do projeto, nela contém os nós.
 
 ```# ./gradlew deployNodes```
 
-Entrando na pasta build e depois na pasta nodes,
+Certo, agora a pasta build foi criada, vamos entrar nela e depois na pasta nodes.
 
 ```$ cd build/nodes```
 
-Temos um script para inicar o Nó A e B, o webService A e B, e o Notário.
+Temos um script para inicar o Back-end,ele ira abrir 5 terminais Xterm rodando os seguintes processos, o Nó A e B, o webService A e B, e o Notário.
 
 ```# ./runnodes```
 
