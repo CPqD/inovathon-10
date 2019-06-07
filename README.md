@@ -37,7 +37,7 @@
 
 Para começarmos primeiro clone nosso reposítorio seguindo o comando a baixo. 
 
-```# git clone "linkDoRepositorioDoGithub"```
+```# git clone https://github.com/CPqD/inovathon-10.git```
 
 Vai ser gerado uma pasta com nome inovathon-10. Entre nessa diretório que foi clonado.
 
