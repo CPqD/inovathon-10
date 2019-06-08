@@ -1,22 +1,25 @@
 # DiDi App
 
-## Decentralized Identity Intelligence
+## Identidade Inteligente Descentralizada
 
-### Appearance
+### Aparência
 
 <img src="img/1.png" width="154" height="274" title="Github Logo"> <img src="img/2.png" width="154" height="274" title="Github Logo"> <img src="img/3.png" width="154" height="274" title="Github Logo"> <img src="img/4.png" width="154" height="274" title="Github Logo"> <img src="img/5.png" width="154" height="274" title="Github Logo">
 
 ***
 
-### Know DiDi
+### Conheça DiDi
 
-- Self-sovereign decentralized identity
-- Identity score
-- Exchange of identity without friction
-- Solutions Marketplace
+- Identidade descentralizada auto-soberana
+
+- Pontuação de identidade
+
+- Troca de identidade sem atrito
+
+- Mercado de soluções
 
 ***
-### Architecture for Global Scale
+### Arquitetura para a escala global
 
 -  [HYPERLEDGER INDY](https://www.hyperledger.org/projects/hyperledger-indy)
 
@@ -35,7 +38,7 @@
 
 ### Instalação
 
-Para começarmos primeiro clone nosso reposítorio seguindo o comando a baixo. 
+Para começarmos, primeiro clone nosso reposítorio seguindo o comando a baixo. 
 
 ```# git clone https://github.com/CPqD/inovathon-10.git```
 
