@@ -31,6 +31,7 @@
 - xTerm.
 - Java 8.
 - Angular 7.2.14
+- Angular CLI
 - Typescript 3.4
 - Node 8.10
 
