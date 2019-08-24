@@ -15,19 +15,19 @@
   <div class="wrapper-resultado">
     <p class="title">Resultado:</p>
     <div class="infos">
-      <p class="info-text"><span>Nome:</span> Leandro Soares</p>
-      <p class="info-text"><span>Idade:</span> 22 anos</p>
+      <p class="info-text"><span>Nome:</span> Lucas Mori</p>
+      <p class="info-text"><span>Idade:</span> 20 anos</p>
       <p class="info-text"><span>Foto:</span></p>
       <p class="info-img">
         <img src="../../../assets/perfil.jpeg" alt="foto">
       </p>
-      <p class="info-text"><span>Pontuação:</span> 500pts</p>
+      <p class="info-text"><span>Pontuação:</span> 1500pts</p>
       <p class="info-text"><span>Status:</span> Confiável</p>
       <p class="info-text"><span>Verificação:</span> idOxdRnss22Lds2lDskla2Akf</p>
 
     </div>
     <div class="actions">
-      <button mat-flat-button color="primary" class="mr-50">Reportar</button>
+      <button mat-flat-button color="primary" class="mr-50" (click)="refuse()" [routerLink]="['/dashboard/home']">Reportar</button>
       <button mat-flat-button color="primary" (click)="confirm()" [routerLink]="['/dashboard/home']">Confirmar</button>
     </div>
   </div>

@@ -15,10 +15,10 @@ export class ShareidComponent implements OnInit {
   ngOnInit() {
   }
 
-  find(){ 
+  find() {
     this.corda.getId().then(resp => {
       for (let bla in resp) {
-        if (resp[bla].state.data.id.uid === '111.111.111-11') {
+        if (resp[bla].state.data.id.uid === '123.456.789-10') {
           console.log( resp[bla].state.data)
           this.router.navigateByUrl('/dashboard/solicitado');
         }; 

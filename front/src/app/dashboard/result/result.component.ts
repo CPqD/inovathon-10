@@ -13,6 +13,9 @@ export class ResultComponent implements OnInit {
   ngOnInit() {
   }
 
+  refuse() {
+    this.snackBar.open('Sucesso!', 'OK', { duration: 2000 });
+  }
   confirm() {
     this.snackBar.open('Sucesso!', 'OK', { duration: 2000 });
   }
