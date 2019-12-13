@@ -33,7 +33,7 @@
     "moment": "^2.24.0",
     "ngx-mask": "^7.9.6",
     "ngx-webcam": "^0.2.2",
-    "npm": "^6.9.0",
+    "npm": "^6.13.4",
     "reinstall": "^2.0.0",
     "rxjs": "^6.5.1",
     "rxjs-compat": "^6.5.1",
